@@ -199,7 +199,7 @@ export const BookingForm = ({
 
     if (!currentUser) {
       // User is not logged in, redirect to login page with return URL
-      router.push(`/auth/consumer/login?returnUrl=${encodeURIComponent(paymentUrl)}`);
+      router.push(`/login?returnUrl=${encodeURIComponent(paymentUrl)}`);
       return;
     }
 

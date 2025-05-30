@@ -88,10 +88,10 @@ export function Header() {
           ) : (
             <>
               <Button variant="ghost" asChild>
-                <Link href="/auth/consumer/login">Sign in</Link>
+                <Link href="/login">Sign in</Link>
               </Button>
               <Button asChild>
-                <Link href="/auth/consumer/signup">Sign up</Link>
+                <Link href="/signup">Sign up</Link>
               </Button>
             </>
           )}
